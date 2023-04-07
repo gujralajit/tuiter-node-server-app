@@ -8,6 +8,6 @@ const schema = mongoose.Schema({
     handle: String,
     time: String,
     dislikes : Number,
-    disliked: false,
+    disliked: Boolean,
 }, {collection: 'tuits'});
 export default schema;
